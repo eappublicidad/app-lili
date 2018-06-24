@@ -11,3 +11,9 @@ footer {
   width: 100%;
 
 }
+
+hr {
+  color: #DF01D7;
+  background-color: #DF01D7;
+  opacity: 0.5;
+}

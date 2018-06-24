@@ -1,0 +1,25 @@
+.container-2 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2%;
+
+}
+
+
+.servicioscentro{
+  margin-button: 2%;
+}
+
+h1.display-3{
+  color:#bf4197;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1.display-3:hover{
+color: #9f2478;
+}
+.div2{
+  margin-top: 20px;
+}
+@max

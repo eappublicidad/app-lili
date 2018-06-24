@@ -1,0 +1,27 @@
+.boton2{
+  border-color:#bf4197;
+  color:#bf4197;
+}
+
+.boton2:hover{
+  background-color: #bf4197;
+  color:#ffffff;
+}
+
+.boton2-success{
+background-color: #bf4197;
+color:#ffffff;
+}
+
+.menuheader{
+  padding-left: 6%;
+  padding-right: 6%;
+  background-color: #f8f9fa;
+}
+.diente{
+  width: 30px;
+  height: auto;
+  margin: 0 auto;
+  z-index: 1;
+
+}
