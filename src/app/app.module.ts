@@ -1,12 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AppComponent } from './app.component';
+import { HttpModule } from '@angular/http';
 
-//rutas
-import {APP_ROUTING} from './app.routes';
+// Rutas
+import { APP_ROUTING } from './app.routes';
 
 
 //componentes de las páginas
-import { AppComponent } from './app.component';
 import { FooterComponent } from './globals/footer/footer.component';
 import { HeaderComponent } from './globals/header/header.component';
 import { SectionComponent } from './pages/home/componentes/section/section.component';
@@ -17,6 +18,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { QuienesComponent } from './pages/quienes/quienes.component';
 import { ContactenosComponent } from './pages/contactenos/contactenos.component';
+
+//rutas
+
 
 @NgModule({
   declarations: [
@@ -32,9 +36,11 @@ import { ContactenosComponent } from './pages/contactenos/contactenos.component'
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     APP_ROUTING
+
   ],
-  providers: [],
+  providers: [HomeComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
