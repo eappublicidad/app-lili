@@ -5,14 +5,15 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
-export class FooterComponent {
+export class FooterComponent implements OnInit {
   anio:number ;
   frase:any;
   mostrar = true;
+
   constructor() {
     this.anio = new Date().getFullYear(),
     this.frase = "Gracias por visitarnos, espero verte pronto";
-  }
+    }
 
-
+    ngOnInit() {}
 }

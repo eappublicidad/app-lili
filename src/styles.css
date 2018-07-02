@@ -17,3 +17,10 @@ hr {
   background-color: #DF01D7;
   opacity: 0.5;
 }
+
+@media (min-width: 576px) {
+h1{
+  font-size: 16px;
+}
+
+ }
