@@ -10,7 +10,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto ">
           <li class="nav-item" routerLinkActive="active" >
-            <a class="nav-link" href="#">Inicio </a>
+            <a class="nav-link" [routerLink]="['home']">Inicio </a>
           </li>
 
           <li class="nav-item dropdown" routerLinkActive="active">
@@ -18,17 +18,17 @@
               Servicios
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" routerLinkActive="active">
-              <a class="dropdown-item" href="#">Odontología general</a>
-              <a class="dropdown-item" href="#">Ortodoncia</a>
+              <a class="dropdown-item" [routerLink]="['servicios']">Odontología general</a>
+              <a class="dropdown-item" [routerLink]="['servicios']">Ortodoncia</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Urgencias</a>
+              <a class="dropdown-item" [routerLink]="['servicios']">Urgencias</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Dra. Lilian Acosta</a>
+            <a class="nav-link" [routerLink]="['quienes']">Dra. Lilian Acosta</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contáctenos</a>
+            <a class="nav-link" [routerLink]="['contactenos']">Contáctenos</a>
           </li>
         </ul>
       <!--<img class="diente" src="../assets/favicon.png"  alt="...">-->

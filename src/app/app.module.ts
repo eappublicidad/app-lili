@@ -15,6 +15,7 @@ import { QuienesComponent } from './pages/quienes/quienes.component';
 import { ContactenosComponent } from './pages/contactenos/contactenos.component';
 
 // rutas, putas rutas
+import { routing, appRoutingProviders } from './app.rutas';
 
 
 @NgModule({
@@ -32,9 +33,12 @@ import { ContactenosComponent } from './pages/contactenos/contactenos.component'
   imports: [
     BrowserModule,
     HttpModule,
+    routing
 
   ],
-  providers: [HomeComponent],
-  bootstrap: [AppComponent]
+  providers: [HomeComponent,
+  appRoutingProviders],
+  bootstrap: [AppComponent],
+
 })
 export class AppModule { }
