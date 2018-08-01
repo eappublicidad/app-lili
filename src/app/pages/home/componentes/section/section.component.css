@@ -1,25 +1,64 @@
+img {
+  -webkit-box-shadow: 0px 1px 9px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 1px 9px 1px rgba(0,0,0,0.5);
+  box-shadow: 0px 1px 9px 1px rgba(0,0,0,0.5);
+  margin-bottom:20px;
+}
+
+img:hover {
+  filter:gray;
+  webkit-filter:grayscale(1);
+}
+
+
 .container-2 {
   width: 90%;
   margin: 0 auto;
   padding: 2%;
-
 }
-
 
 .servicioscentro{
   margin-button: 2%;
 }
 
-h1.display-3{
-  color:#bf4197;
-  text-align: center;
-  font-family: sans-serif;
-}
-
-h1.display-3:hover{
-color: #9f2478;
-}
 .div2{
   margin-top: 20px;
 }
-@max
+input{
+  margin-bottom: 10px;
+}
+.caja2{
+  margin-left: 50px;
+}
+.display-3 {
+  text-align:center;
+}
+.display-4 .force {
+  text-align:right;
+}
+
+
+
+  @media (max-width: 575.98px) {
+.desk {
+  display: none;
+}
+
+h1{
+  text-align: center;
+  margin: 0 auto;
+}
+
+hr.v{
+  display: none;
+}
+.caja2{
+  margin: 0 auto ;
+}
+
+.display-3 {
+  text-align:center;
+}
+
+
+   }

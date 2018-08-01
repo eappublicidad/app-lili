@@ -1,0 +1,22 @@
+body{
+  background-clip: inherit;
+
+}
+.container{
+  display: flex;
+}
+
+
+.container #carouselExampleFade .adentro{
+
+float: right;
+  -webkit-clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+clip-path: polygon(20% 0%%, 100% 0, 100% 100%, 0% 100%);
+border-right: solid 2px #bf4197;
+border-bottom: solid 2px #bf4197;
+}
+
+.blockque{
+float:left;
+border-bottom: solid 2px #bf4197;
+}

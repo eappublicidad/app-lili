@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HttpModule } from '@angular/http';
+// servicios
+
 
 // componentes de las páginas
 import { FooterComponent } from './globals/footer/footer.component';
@@ -16,6 +18,7 @@ import { ContactenosComponent } from './pages/contactenos/contactenos.component'
 
 // rutas, putas rutas
 import { routing, appRoutingProviders } from './app.rutas';
+import { FormularioComponent } from './pages/home/componentes/formulario/formulario.component';
 
 
 @NgModule({
@@ -28,7 +31,10 @@ import { routing, appRoutingProviders } from './app.rutas';
     HomeComponent,
     ServiciosComponent,
     QuienesComponent,
-    ContactenosComponent
+    ContactenosComponent,
+    FormularioComponent,
+
+
   ],
   imports: [
     BrowserModule,
@@ -39,6 +45,7 @@ import { routing, appRoutingProviders } from './app.rutas';
   providers: [HomeComponent,
   appRoutingProviders],
   bootstrap: [AppComponent],
+
 
 })
 export class AppModule { }
